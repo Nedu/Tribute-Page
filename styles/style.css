@@ -1,0 +1,106 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.carousel{
+	margin: auto;
+}
+.carousel-inner >  .carousel-item  > img {
+  margin: auto;
+ }
+
+.carousel-item {
+	height: 65vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@media (max-width: 1020px) {
+    .carousel {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+
+html{
+	position: relative;
+	height: 100%;
+}
+
+body {
+	background-color: #eecc33;
+	margin-top: 50px;
+	position: relative;
+	margin-bottom: 60px;
+	height: 100%;
+}
+
+.home {
+	position: relative;
+	top: 2.75em; 
+}
+
+#home {
+	padding-top: 50px;
+}
+
+#timeline {
+	padding-top: 50px;
+}
+
+#movies {
+	padding-top: 50px;
+}
+
+.logo {
+    width: auto;
+    max-width: 200px;
+    min-height: 361px;
+}
+
+#img-div {
+	min-height: 100px;
+}
+
+h3{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+ul {
+	list-style: none;
+}
+
+.layout {
+	margin-bottom: 5.125em;
+}
+
+footer{
+	position: absolute;
+	width: 100%;
+	min-height: 70px;
+}
+
+.footer-left {
+	top: 15px;
+}
+
+.footer-right {
+	top: 15px;
+}
+
+@media (min-width: 690px) {
+	.footer-right {
+	margin: 0px;
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+	.footer-left {
+		width: 50%;
+	}
+}
