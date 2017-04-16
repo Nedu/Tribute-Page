@@ -121,10 +121,6 @@ footer{
 	color: #a20000;
 }
 
-.carousel-control-next, .carousel-control-prev{
-	color: transparent;
-}
-
 @media (min-width: 690px) {
 	.footer-right {
 	margin: 0px;
