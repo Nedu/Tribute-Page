@@ -6,7 +6,7 @@ This page was created as a FreeCodeCamp Challenge Exercise.
 
 ## Working Demo
 
-![alt tag](../images/demo.png)
+![alt tag](/images/demo.png)
 
 
 
