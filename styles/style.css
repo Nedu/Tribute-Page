@@ -79,10 +79,30 @@ ul {
 	margin-bottom: 5.125em;
 }
 
+.icon {
+	color: #7a091e !important;
+}
+
+.indicators{
+	background-color: #5e0717 !important;
+}
+
+.nav-link {
+	color: #a20000 !important;
+}
+
+.nav-link.active{
+	color: #650000 !important;
+}
+
 footer{
 	position: absolute;
 	width: 100%;
 	min-height: 70px;
+}
+
+.fa{
+	color: #a20000;
 }
 
 .footer-left {
@@ -91,6 +111,18 @@ footer{
 
 .footer-right {
 	top: 15px;
+}
+
+#tribute-link{
+	color: #02549b;
+}
+
+#icon-pack{
+	color: #a20000;
+}
+
+.carousel-control-next, .carousel-control-prev{
+	color: transparent;
 }
 
 @media (min-width: 690px) {
