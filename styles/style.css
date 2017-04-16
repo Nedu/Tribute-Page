@@ -98,7 +98,8 @@ ul {
 footer{
 	position: absolute;
 	width: 100%;
-	min-height: 70px;
+	min-height: 100px;
+	line-height: 25px;
 }
 
 .fa{
@@ -122,6 +123,9 @@ footer{
 }
 
 @media (min-width: 690px) {
+	footer {
+		line-height: 80px;
+	}
 	.footer-right {
 	margin: 0px;
 	float: right;
