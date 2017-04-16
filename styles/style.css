@@ -22,7 +22,7 @@
 
 @media (max-width: 1020px) {
     .carousel {
-      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+      display: none; 
     }
   }
 
